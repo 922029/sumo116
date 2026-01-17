@@ -28,7 +28,7 @@ SUMO_CMD = ["sumo", "-c", "4cross.sumocfg", "--no-step-log", "true", "--waiting-
 # GUIで確認したい場合は "sumo" を "sumo-gui" に変更してください
 # SUMO_CMD = ["sumo-gui", "-c", "4cross.sumocfg", "--no-step-log", "true", "--waiting-time-memory", "10000", "--no-warnings"]
 
-EPISODES = 10
+EPISODES = 200
 SIM_DURATION = 9000
 CYCLE_TIME = 200
 CONTROL_STEP = 200 # 行動決定間隔
